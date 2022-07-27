@@ -20,5 +20,8 @@
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
     "husky": "^8.0.1"
+  },
+  "dependencies": {
+    "semantic-release": "^19.0.3"
   }
 }
