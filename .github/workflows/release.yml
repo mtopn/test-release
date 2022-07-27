@@ -1,8 +1,9 @@
 name: Semantic release
 
 on:
-  branches:
-    - master
+  push:
+    branches:
+      - master
 jobs:
   publish:
     runs-on: ubuntu-latest
