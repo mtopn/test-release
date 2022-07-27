@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/mtopn/test-release/issues"
   },
-  "homepage": "https://github.com/mtopn/test-release#readme"
+  "homepage": "https://github.com/mtopn/test-release#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "husky": "^8.0.1"
+  }
 }
