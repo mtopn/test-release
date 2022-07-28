@@ -37,5 +37,5 @@ jobs:
       - name: Clear dry branch
         uses: dawidd6/action-delete-branch@v3
         with:
-          github_token: ${{SECRET}}
+          github_token: ${{ secrets.GH_TOKEN }}
           branches: dry
