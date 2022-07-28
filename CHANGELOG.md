@@ -1,3 +1,14 @@
+## [1.2.1](https://github.com/mtopn/test-release/compare/v1.2.0...v1.2.1) (2022-07-28)
+
+
+### Bug Fixes
+
+* action typo ([8eb7943](https://github.com/mtopn/test-release/commit/8eb794380c7b98dd4b56f1b24404194d4688389d))
+* allow release on dev branch ([7a76b04](https://github.com/mtopn/test-release/commit/7a76b0427b3d79d3e77136e6bd5cb122007442b9))
+* change back to json ([7c1f0a0](https://github.com/mtopn/test-release/commit/7c1f0a0280709c6139bdabd0ee9bef2519ee92cc))
+* github secrets ([76460a6](https://github.com/mtopn/test-release/commit/76460a633de1a369bc51a41dccc67952e8129bf9))
+* update to release.config.js ([f853771](https://github.com/mtopn/test-release/commit/f853771bd5335f68dd7e554f8fe8a287f24666f4))
+
 # [1.2.0](https://github.com/mtopn/test-release/compare/v1.1.0...v1.2.0) (2022-07-28)
 
 
