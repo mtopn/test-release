@@ -14,7 +14,9 @@
   ],
   "release": {
     "branches": [
-      "master"
+      "master",
+      "next",
+      "dry"
     ],
     "prepare": [
       "@semantic-release/changelog",

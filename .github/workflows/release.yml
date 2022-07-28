@@ -1,9 +1,7 @@
 name: Semantic release
 
 on:
-  push:
-    branches:
-      - master
+  pull_request:
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -13,6 +11,16 @@ jobs:
     steps:
       - name: Check out
         uses: actions/checkout@v2
+      - name: Create dry branch
+        uses: peterjgrainger/action-create-branch@v2.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        with:
+          branch: 'dry'
+      - name: Checkout dry branch
+        uses: action/checkout@v2
+        with:
+          ref: dry
       - name: Use Node.js ${{ matrix.node }}
         uses: actions/setup-node@v2
         with:
@@ -23,4 +31,11 @@ jobs:
       - name: Semantic release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: npx semantic-release
+        run: unset GITHUB_ACTIONS && npx semantic-release --dry-run --no-ci
+      - name: Back to code
+        uses: actions/checkout@v2
+      - name: Clear dry branch
+        uses: dawidd6/action-delete-branch@v3
+        with:
+          github_token: ${{SECRET}}
+          branches: dry
