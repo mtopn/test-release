@@ -18,7 +18,7 @@ jobs:
         with:
           branch: 'dry'
       - name: Checkout dry branch
-        uses: action/checkout@v2
+        uses: actions/checkout@v2
         with:
           ref: dry
       - name: Use Node.js ${{ matrix.node }}
