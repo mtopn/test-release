@@ -2,14 +2,15 @@ name: Semantic release
 
 on:
   push:
-    branches:
-      - develop
+    branches: [master]
+  pull_request:
+    branches: [master]
 jobs:
   publish:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node: [16.13.1]
+        node: [16.x]
     steps:
       - name: Check out
         uses: actions/checkout@v2
