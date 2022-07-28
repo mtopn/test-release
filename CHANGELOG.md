@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/mtopn/test-release/compare/v1.2.1...v1.3.0) (2022-07-28)
+
+
+### Features
+
+* add PUT route ([f6ee42c](https://github.com/mtopn/test-release/commit/f6ee42c343b43422f18691f8f613c5b33591bf1f))
+
 ## [1.2.1](https://github.com/mtopn/test-release/compare/v1.2.0...v1.2.1) (2022-07-28)
 
 
