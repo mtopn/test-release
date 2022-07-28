@@ -15,6 +15,10 @@ app.put('/', (req, res) => {
   res.text('PUT');
 });
 
+app.delete('/', (req, res) => {
+  res.text('DELETE');
+});
+
 app.listen(PORT, (err) => {
   if (err) console.log(err);
   console.log(`server is running on port ${PORT}`);
