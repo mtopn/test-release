@@ -11,6 +11,10 @@ app.post('/', (req, res) => {
   res.text('POST');
 });
 
+app.put('/', (req, res) => {
+  res.text('PUT');
+});
+
 app.listen(PORT, (err) => {
   if (err) console.log(err);
   console.log(`server is running on port ${PORT}`);
