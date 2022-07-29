@@ -2,7 +2,7 @@ name: Semantic release
 
 on:
   push:
-    branches: [master]
+    branches: [develop, staging]
 jobs:
   publish:
     runs-on: ubuntu-latest

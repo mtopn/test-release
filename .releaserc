@@ -15,7 +15,8 @@
   "release": {
     "branches": [
       "master",
-      "develop"
+      "develop",
+      "staging"
     ],
     "prepare": [
       "@semantic-release/changelog",
