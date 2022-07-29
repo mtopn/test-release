@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/mtopn/test-release/compare/v1.3.0...v1.4.0) (2022-07-29)
+
+
+### Features
+
+* delete route ([b23f36f](https://github.com/mtopn/test-release/commit/b23f36f54c082cf41ca6c2a06f543128663ded8d))
+
 # [1.3.0](https://github.com/mtopn/test-release/compare/v1.2.1...v1.3.0) (2022-07-29)
 
 
