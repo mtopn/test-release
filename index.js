@@ -15,7 +15,15 @@ app.post('/', (req, res) => {
   res.text('POST');
 });
 
+app.post('/time', (req, res) => {
+  res.text(new Date());
+});
+
 app.put('/', (req, res) => {
+  res.text('PUT');
+});
+
+app.put('/time', (req, res) => {
   res.text('PUT');
 });
 

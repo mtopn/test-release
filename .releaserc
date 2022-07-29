@@ -1,4 +1,8 @@
 {
+  "branches": [
+    "master",
+    "develop"
+  ],
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
@@ -13,11 +17,6 @@
     "@semantic-release/git"
   ],
   "release": {
-    "branches": [
-      "master",
-      "develop",
-      "staging"
-    ],
     "prepare": [
       "@semantic-release/changelog",
       {
