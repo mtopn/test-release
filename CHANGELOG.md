@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/mtopn/test-release/compare/v1.4.0...v1.5.0) (2022-09-12)
+
+
+### Features
+
+* an update ([a9d8fb6](https://github.com/mtopn/test-release/commit/a9d8fb64454f9b34f8cc955a50ce976af6175435))
+
 # [1.4.0](https://github.com/mtopn/test-release/compare/v1.3.0...v1.4.0) (2022-07-29)
 
 
